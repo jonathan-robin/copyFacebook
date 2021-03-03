@@ -1,0 +1,7 @@
+[{
+    "origin": ["copiefacebook.appspot.com"],
+    "method": ["get"],
+    "responseHeader": ["Content-Type"],
+    "maxAgeSeconds": 3600
+    }
+]

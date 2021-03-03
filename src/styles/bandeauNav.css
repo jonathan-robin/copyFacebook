@@ -1,0 +1,349 @@
+@media (max-width:5000px){
+    
+.imgProfile{
+    height:40px;
+    width:40px; 
+    border-radius:50px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.AutourBouttonProfil{
+    width:contain;
+    color:white; 
+    margin-top:10px;
+    float:right;
+    margin-right:10px;
+    border-radius:50px;
+}
+.profilText{
+    display: inline-block;
+    margin-left:8px;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+    .BandeauNavLeft{
+        width:360px;
+    }
+    .rechercheLoupe{
+        display:inline-block;
+        height:44px; 
+        width:280px;
+        border-top-left-radius:50px;
+        border-top-right-radius:50px;
+        border-bottom-left-radius:50px;
+        border-bottom-right-radius:50px;
+        background-color:#3d3f41;
+        margin-left:-8px;
+        cursor: pointer;
+    }
+    .textLoupe{
+        display:inline-block;
+        padding:10px;
+        color:rgb(177, 174, 174);
+    }
+    .BandeauNavRight{
+        display: inline-block;
+        float:right;
+        width:384px;
+        height:56px;
+    }
+    .BandeauNavMiddle{
+        height:56px;
+        padding-top:5px;
+        padding-left:4vw;
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+}
+@media (max-width: 1260px){
+    
+.imgProfile{
+    height:0px;
+    width:0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.AutourBouttonProfil{
+    display:none !important;
+}
+.profilText{
+        height:0px;
+        width:0px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+}
+    .BandeauNavLeft{
+        width:152px;
+    }
+    .BandeauNavRight{
+        width:200px;
+        height:56px;
+        display:inline-block;
+        float:right;
+    }
+    .rechercheLoupe{
+        display:inline-block;
+        height:46px; 
+        width:46px;
+        padding-top:10px;
+        border-radius:100%;
+        background-color:#3d3f41;
+        margin-left:-8px;
+        cursor: pointer;
+    }
+    .textLoupe{
+        font-size:0px;
+        padding:0px;
+    }
+    .Homeimg{ 
+        margin-left:5px !important;
+        margin-right:5px !important;
+    }
+    .friendsimg{ 
+        margin-left:5px !important;
+        margin-right:5px !important;
+    }
+    .videoimg{ 
+        margin-left:5px !important;
+        margin-right:5px !important;
+    }
+    .marketplaceimg{ 
+        margin-left:5px !important;
+        margin-right:5px !important;
+    }
+    .groupimg{ 
+        margin-left:5px !important;
+        margin-right:5px !important;
+    }
+}
+
+@media (max-width:980px){
+    .AutourBoutton{
+        display:none !important;
+    }
+    .AutourBoutton:nth-child(1){
+        display:block !important;
+    }
+    .profilText{
+        display:block !important;
+    }   
+    .AutourBouttonProfil{
+        color:white !important; 
+        border-radius:50px !important;
+        display:flex !important;
+    }
+    .BandeauNavRight{
+        width:fit-content;
+    }
+    .BandeauNavMiddle{ 
+        width:fit-content !important;
+    }
+}
+
+@media (max-width:650px){
+   .BandeauNavMiddle{ 
+       display:none !important;
+   }
+   .AutourBouttonProfil{
+       display:flex; 
+       flex-direction:row;
+       float:left;
+   }
+   .profilText{ 
+        display: inline-block !important;
+        margin-left:8px !important;
+        font-weight: 600 !important;
+        font-size: .9375rem !important;
+        line-height: 1.3333 !important;
+        margin-top:8px;
+        height:fit-content; 
+        width:fit-content;
+    }
+}
+.Homeimg{ 
+    filter: invert(83%) sepia(7%) saturate(169%) hue-rotate(178deg) brightness(88%) contrast(85%);
+}
+.friendsimg{ 
+    filter: invert(83%) sepia(7%) saturate(169%) hue-rotate(178deg) brightness(88%) contrast(85%);
+}
+.videoimg{ 
+    filter: invert(83%) sepia(7%) saturate(169%) hue-rotate(178deg) brightness(88%) contrast(85%);
+}
+.marketplaceimg{ 
+    filter: invert(83%) sepia(7%) saturate(169%) hue-rotate(178deg) brightness(88%) contrast(85%);
+}
+.groupimg{ 
+    filter: invert(83%) sepia(7%) saturate(169%) hue-rotate(178deg) brightness(88%) contrast(85%);
+}
+.BandeauNav{
+    display:inline-block;
+    height:56px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index:50;
+}
+.BandeauNavLeft{
+    display: inline-block;
+    height:56px;
+    padding-top:4px;
+}
+.fblogo{
+    height:52px; 
+    width:76px;
+    cursor:pointer;
+}
+
+.loupe{
+    height:25px;
+    width:25px;
+    margin-left:10px;
+}
+.imgProfile{
+    height:40px;
+    width:40px; 
+    border-radius:50px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.AutourBoutton{
+    margin-top:8px;
+    display:inline-block;
+    height:40px; 
+    width:40px;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    background-color:#3d3f41;
+    float:right;
+    margin-right:10px;
+}
+.bouton1{
+    height:40px; 
+    width:40px;
+    cursor:pointer;
+    border-radius:50px;
+    float:right;
+}
+.bouton2{
+    height:40px; 
+    width:40px;
+    cursor:pointer;
+    float:right;
+}
+.bouton3{
+    height:40px; 
+    width:40px;
+    border-radius:50px;
+    cursor:pointer;
+    float:right;
+}
+.bouton4{
+    height:40px; 
+    width:40px;
+    border-radius:50px;
+    cursor:pointer;
+    float:right;
+    /* right:5px; */
+}
+
+.AutourBouttonProfil:hover{
+    background-color: rgba(128, 125, 125, 0.25);
+    cursor:pointer;
+}
+
+.Home{
+    display: inline-block;
+    margin-right:2vw;
+    justify-content: center;
+    min-width:60px;
+    /* margin-top:8px; */
+    padding:8px;
+}
+.Home:hover{
+    background-color: rgba(128, 125, 125, 0.25);
+    border-radius:20px;
+}
+.Homeimg{
+    height:25px;
+    width:30px;
+    cursor:pointer;
+    max-width:80px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.FriendsList{
+    margin-right:2vw;
+    display: inline-block;
+    justify-content: center;
+    padding:8px;
+}
+.FriendsList:hover{
+    background-color: rgba(128, 125, 125, 0.25);
+    border-radius:20px;
+}
+.friendsimg{
+    height:25px;
+    width:30px;
+    cursor:pointer;
+    max-width:80px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.Watch{
+    display: inline-block;
+    margin-right:2vw;
+    justify-content: center;
+    padding:8px;
+}
+.videoimg{
+    height:25px;
+    width:30px;
+    cursor:pointer;
+    max-width:80px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.Watch:hover{
+    background-color: rgba(128, 125, 125, 0.25);
+    
+    border-radius:20px;
+}
+.Marketplace{
+    display: inline-block;
+    margin-right:2vw;
+    padding:8px;
+}
+.marketplaceimg{
+    height:25px;
+    width:30px;
+    cursor:pointer;
+    max-width:80px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.Marketplace:hover{
+    background-color: rgba(128, 125, 125, 0.25);
+    border-radius:20px;
+}
+.Group{
+    display: inline-block;
+    justify-content: center;
+    margin-right:2vw;
+    padding:8px;
+}
+.Group:hover{
+    background-color: rgba(128, 125, 125, 0.25);
+    border-radius:20px;
+}
+.groupimg{
+    height:30px;
+    width:30px;
+    max-width:80px;
+    cursor:pointer;
+    margin-left:20px;
+    margin-right:20px;
+}
+

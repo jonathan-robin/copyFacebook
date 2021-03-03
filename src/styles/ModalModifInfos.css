@@ -1,0 +1,57 @@
+.anniversaire{
+    width:50%;
+    color:dimgray;
+}
+.anniversaire:hover{
+    cursor: text;
+    background-color: rgb(39, 38, 38);
+}
+.rowModif{
+    padding:5px;
+    display:flex;
+    margin:10px;
+}
+.modifInfosInput{
+    width:50%;
+    background-color:#3b3b3b;
+    border:none; 
+    border-radius:10px;
+    padding:5px;
+    padding-left:15px;
+    color:white;
+}
+.modifInfosInput:active{
+    border:none; 
+
+}
+.modifInfos{
+color:white; 
+    margin-left:30px;
+    background-color:#3b3b3b;
+    padding:5px;
+    width:50%;
+    border-radius:10px;
+    text-align:center;
+    cursor:default;
+}
+.modifInfosGrise{
+    color:rgb(158, 155, 155); 
+    margin-left:30px;
+    background-color:#3b3b3b;
+    padding:5px;
+    width:50%;
+    font-size:14px;
+    border-radius:10px;
+    text-align:center;
+    cursor:default;
+}
+.boutonsModifInfos{
+    width:100%;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+}   
+.boutonsModifInfos Button{
+    margin:10px;
+}
+

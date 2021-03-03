@@ -1,0 +1,643 @@
+@media (max-width:2520px){
+    .ConnexionInformation{
+        margin:auto;
+        width:980px;
+        height:496px;
+    }
+    .ConnexionRecentes{
+        padding-right:48px;
+        width:584px;
+        height:496px;
+    }
+    .ConnexionGlobal{
+        width:100%;
+        height:895px;
+    }
+        .ConnexionContent{
+        padding-bottom:132px;
+        padding-top:92px;
+    }
+    .Connexion{
+        display:flex;
+        float:right;
+        width:396px;
+        height:496px;
+    }
+    .ConnexionMentions{
+        height:136px;
+        width:930px;
+        margin:auto;
+    }
+    .CompteEnregistre{
+        display:flex;
+        flex-wrap:wrap;
+        font-size:12px;
+        height:50%;
+    }
+    .txtConnexionsRecentes{
+        font-size:28px;
+        line-height:32px;
+        font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-weight:normal;
+    }
+    .ConnexionMentionsMargin{
+        padding-top:20px;
+        height:136px;
+    }
+}
+@media (max-width:1075px){
+    .txtConnexionsRecentes{
+        font-size:24px;
+        line-height:28px;
+        font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-weight:normal;
+    }
+    .ConnexionInformation{
+        width:90vw;
+        margin: auto;
+        height:496px;
+    }
+    .ConnexionRecentes{
+        padding-right:24px;
+        width:51%;
+        height:496px;
+    }
+    .ConnexionContent{
+        padding-bottom:132px;
+        padding-top:92px;
+    }
+    .ConnexionGlobal{
+        width:100%;
+        height:895px;
+    }
+    .Connexion{
+        display:flex;
+        float:right;
+        width:396px;
+        height:496px;
+    }
+    .ConnexionMentions{
+        height:158px;
+        width:80%;
+        margin:auto;
+    }
+    .CompteEnregistre{
+        display:flex;
+        flex-wrap:wrap;
+        font-size:12px;
+        height:50%;
+    }
+
+}
+@media (max-width : 1000px){
+    .ConnexionMentions{
+        height:175px;
+
+    }
+    .ConnexionMentionsMargin{
+        padding-top:20px;
+        height:155px;
+    }
+}
+@media (max-width : 900px){
+    .ConnexionInformation{
+        height:842px;
+    }
+    .ConnexionContent{
+        padding-bottom:80px;
+        padding-top:20px;
+        height:942px;
+    }
+    .ConnexionGlobal{
+        width:100%;
+        height:1117px;
+    }
+    .ConnexionRecentes{
+        width:100%;
+        height:382px;
+        padding-right:0;
+        text-align:center;
+        position:relative;
+    }
+    .CompteEnregistre{
+        justify-content:center;
+        margin: 0 auto;
+        max-width:534px;
+        display:flex;
+        flex-wrap: wrap;
+        text-align:center;
+    }
+    .Connexion{
+        float:none;
+        margin:0 auto;
+        width:396px;
+        height:460px;
+    }
+}
+@media (max-width : 790px){
+    .ConnexionMentionsMargin{
+        padding-top:20px;
+        width:90%;
+        height: fit-content;
+    }
+}
+
+
+.ConnexionContent{
+    display:flex;
+}
+
+.ConnexionContainer{
+    height:720px;
+    width:100%;
+}
+
+.ConnexionContent{
+    background-color:#f0f2f5;;
+    width: 100%;
+}
+
+
+
+.ConnexionRecentes{
+    float:left;
+}
+
+
+
+.logoFacebook{
+    padding:8px 0 16px 0;
+}
+.logoFacebookimg{
+    height:70px;
+    margin:-20px;
+}
+
+.txtCliquezImages{
+    padding-bottom: 12px;
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    font-weight:normal;
+}
+
+
+.savedAccount{
+    flex:0 0 178px;
+    margin:0 0 20px 0;
+    display:block;
+}
+.boutonAddAccount{
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 62px;
+    width: 42px;
+}
+.addAccount{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    background-color: #f5f6f7;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    box-shadow: 0 0 0 1px #dddfe2;
+    color: #385898;
+    cursor: pointer;
+}
+.addAccountText{
+    color: #1877f2;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 12px;
+    width: 160px;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #fff;
+    
+}
+.imgBoutons{
+    display: flex;
+    height: 160px;
+    justify-content: center;
+    width: 160px;
+    align-items: center;    
+}
+.ConnexionMargin{
+    height: 456px;
+    width: 396px;
+}
+.ConnexionMainInfo{
+    height:345px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 10px 0 24px;
+    width: 396px;
+    text-align: center;
+    display: block;
+}
+.FormConnexion{
+    text-align: center;
+    font-size:12px;
+}
+.inputInfo{
+    height:128px;
+}
+.EmailInfo{
+    width:364px;
+    height:64px;
+    margin: auto;
+    padding: 6px 0;
+    font-size:17px;
+}
+.PasswordInfo{
+    width:364px;
+    height:64px;
+    margin: auto;
+    padding: 6px 0px;
+    font-size:17px;
+}
+.BouttonConnexion{
+    padding-top:6px;
+    text-align:center;
+    font-size:12;
+}
+.buttonCo{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 24px;
+    line-height: 48px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    color:white;
+    font-weight:500;
+}
+.buttonCo:hover{
+    background-color: #146adb;
+}
+.MdpOublie{
+    padding-top:16px;
+    text-align: center;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.MdpOublie:hover{
+    text-decoration: underline;
+}
+.BreakForm{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.CreeAccountBouton{
+    padding-top:6px;
+    text-align:center;
+    height:54px;
+}
+.CreateAccountButton{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #3fc225;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    color:white;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    font-weight: 650;
+}
+.CreateAccountButton:hover{
+    background-color: #36a420;
+}
+.inputConnexion{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    line-height: 16px;
+    vertical-align: middle;
+    background-color: rgb(232, 240, 254) !important;
+}
+.ConnexionBottom{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+    height:36px;
+}
+.Page{
+    font-size: 14px;
+    font-weight:600;
+    color:black;
+}
+.pageFooter{
+    font-size:12px;
+    /* cursor:pointer; */
+    line-height: 1.6;
+    margin-left: -60px;
+}
+.plusLangage{
+    /* margin:auto; */
+    width: 28px;
+    height:18px;
+    border: 1px solid #dddfe2;
+    vertical-align: middle;
+    font-size: 18px;
+    bottom: 8px;
+    color:rgb(80, 79, 79);
+    font-weight:bolder;
+    position: relative;
+    /* vertical-align: middle; */
+}
+
+.breakLangage{
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-left:60px;
+    margin-bottom: 8px;
+}
+.pageFooterChildren{
+    font-size:12px;
+    /* cursor:pointer; */
+    line-height: 1.6;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+li{
+    padding-left: 20px;
+    vertical-align: top;
+    display: inline-block;
+    color: #8a8d91;
+    line-height: 1.6px;
+    cursor:pointer;
+}
+li:hover{
+    text-decoration: underline;
+}
+.Facebookcopy{
+    padding-left: 60px;
+}
+
+.ModalFull{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height:551px;
+    width:432px;
+    margin:auto;
+    background-color:#fff;
+    border-radius: 8px 8px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .1), 2px 30px 16px 2px rgba(0, 0, 0, .1);
+}
+.ModalTitre{
+    box-sizing: border-box;
+    padding: 10px 16px;
+    position: relative;
+    width: 432px;
+    z-index: 1;
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight:600;
+}
+.ModalSousTitre{
+    box-sizing: border-box;
+    margin-top:-25px;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+    z-index: 1;
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+.cross{
+    height:20px;
+    width:20px;
+    margin-left: 58%;
+    cursor:pointer;
+}
+.ModalInfo{
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+    text-align: left;
+    height:482px;
+}
+.fullName{
+    width:399px;
+    display:inline-block;
+    padding:5px;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+}
+.prenom{
+    display:inline-block;
+    width: 184px;
+    border-radius: 5px;
+    position: relative;
+    background: #f5f6f7;
+    height:40px;
+    border: 1px solid #c0c0c0;
+    padding-left:10px;
+}
+.Nom{
+    display:inline-block;
+    width: 194px;
+    border-radius: 5px;
+    position: relative;
+    background: #f5f6f7;
+    height:40px;
+    border: 1px solid #c0c0c0;
+    padding-left:10px;
+    margin-left:10px;
+}
+.NumOuEmail{
+    display:inline-block;
+    width: 390px;
+    border-radius: 5px;
+    position: relative;
+    background: #f5f6f7;
+    height:40px;
+    border: 1px solid #c0c0c0;
+    margin-top: 10px;
+    padding-left:10px;
+}
+.InscriptionMdp{
+    display:inline-block;
+    width: 390px;
+    border-radius: 5px;
+    position: relative;
+    background: #f5f6f7;
+    height:40px;
+    border: 1px solid #c0c0c0;
+    margin-top: 10px;
+    padding-left:10px;
+}
+.Datedenaissance{
+    margin-top:20px;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.BirthDay{
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding: 0 8px;
+    padding-right: 20px;
+    width: 115px;
+    border: 1px solid #ccd0d5;
+    margin-right:9px;
+}
+.BirthYear{
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding: 0 8px;
+    padding-right: 20px;
+    width: 140px;
+    border: 1px solid #ccd0d5;
+}
+.Genre{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px -6px -6px;
+    width: 411px;
+    height:50px;
+    text-align: left;
+}
+.Femme{
+
+}
+.LblFemme{
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    margin: 8px 6px 6px;
+    padding: 5px;
+    position: relative;
+    width: auto;
+    border-radius: 4px;
+}
+.lblPersonnalisé{
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    margin: 8px 6px 6px;
+    padding: 5px;
+    position: relative;
+    width: 152px;
+    border-radius: 4px;
+}
+.inputRadio{
+    margin-left:26px;
+}
+.EnCliquant{
+    color: #777;
+    font-size: 11px;
+    margin-top:12px;
+    line-height:1.3;
+}
+.InscrireButton{
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    line-height: 126%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    min-width: 194px;
+    margin-left:25%;
+}
+.InscrireButton:hover{
+
+background-color: rgba(15, 112, 41, 0.623);
+}

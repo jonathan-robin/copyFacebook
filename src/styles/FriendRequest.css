@@ -1,0 +1,64 @@
+
+.divFriendRequest{
+    width:100%; 
+    height:100px;
+    display:flex;
+    margin-bottom:20px;
+}
+.ProfileFriendRequest{
+    background-color:#414141;
+    padding:5px; 
+    margin:10px;
+    width:50%; 
+    height:110px;
+    border-radius:10px;
+    display:flex;
+}
+.ActionsFriendsRequest{
+    display:flex; 
+    width:50%; 
+    height:60px;
+    padding:15px;
+}
+.ImageProfileFriendRequest{
+    height:100%; 
+    width:30%;
+}
+.friendRequestName{
+    display:flex;
+    color:white; 
+    font-size:22px;
+    margin-left:22px;
+    height:fit-content;
+}
+.friendRequestFullName{
+    height:fit-content;
+    color:white; 
+    font-size:18px;
+    margin-left:35px;
+    margin-top:-8px;
+}
+.boutonsFR{
+    display:flex;
+    height:35px;
+    margin-left:5px;
+    margin-top:10px;
+}
+.boutonsFR button{
+    margin-left:10px;
+    padding-bottom:10px;
+}
+.invitAccept{
+    color: white; 
+    background-color: hsl(214,100%,59%);
+    border-radius:10px; 
+    margin-left:25px;
+    font-size:larger;
+}
+.invitRefuser{
+    color: white; 
+    background-color: red;
+    border-radius:10px; 
+    margin-left:25px;
+    font-size:larger;
+}

@@ -1,0 +1,63 @@
+.QueVoulezVousDireModal{
+    width:100%;
+    height:fit-content;
+    min-height:48px;
+    margin-top:14px;
+    border-radius:50px;
+    background-color:#666464;
+    color:white;
+    font-size:24px;
+    padding-left:25px;
+}
+.addpubliphoto{
+    display:flex;
+    width:fit-content;
+    padding:10px;
+}
+.txtpubli{
+    padding-top:8px;
+}
+.tgf{
+    margin-top:12px;
+    width:fit-content;
+}
+.AjouterPost{
+    margin:0;
+    justify-content: center;
+}
+.photoUpload{
+    display:flex;
+}
+.imgUpload{
+    height:250px; 
+    width:472px;
+    margin:auto;
+}
+.divLs{
+    display:flex;
+}
+.lds-dual-ring {
+    margin:auto; 
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

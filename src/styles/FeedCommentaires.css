@@ -1,0 +1,49 @@
+.elementProfilCommentaire{
+    height:20px;
+    width:fit-content; 
+    display:flex;
+}
+
+.photoProfil{
+    height:30px; 
+    width:30px;
+    border-radius:50px;
+}
+.NomCommentaires{
+    display:flex;
+    color:white; 
+    margin-left:6px;
+    font-weight: bold;
+    font-size:14px;
+}
+.ContentCommentaire{
+    margin-left: 40px;
+    padding:2px 2px 0px 2px;
+    margin-top:-5px;
+    height:fit-content;
+    color:white;
+    width:fit-content;
+}
+.infoCommentaire{
+    color:white; 
+    font-size:12px;
+    margin-left:25px;
+}
+.commentaire{
+    margin-top:5px;
+    height:fit-content;
+    width:100%;
+    overflow:hidden;
+}
+
+.bgCom{
+    margin-left:10px;
+    background-color:grey;
+    width:fit-content;
+    padding:5px;
+    border-radius:20px;
+}
+.NomCommentaires:hover{
+    text-decoration: underline; 
+    cursor:pointer;
+}

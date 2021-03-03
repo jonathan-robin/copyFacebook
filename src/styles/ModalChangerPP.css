@@ -1,0 +1,155 @@
+.ModalChangerPP{
+    background-color: #1c1e1c; 
+    border-radius:10px;   
+    max-width:700px;
+    margin:auto;
+    display:flex;
+    height:fit-content;
+}
+.ModalChangerPP span{
+    /* background-color:#3b3b3b; */
+    padding-left:8px;
+    padding-right:8px;
+    padding-bottom:3px;
+    border-radius:50px;
+}
+.ModalChangerPP span:hover{
+    cursor:pointer;
+    background-color:#858383b5;
+}
+
+.carrouselImporterPhotos:active{
+    border:5px solid rgb(35, 35, 245);
+}
+
+
+.UpdatePP{
+    font-size:1.4em;
+    color:white; 
+    font-weight:700;
+    margin-top:-6px;
+    display:flex;
+    margin-left:auto;
+}
+.PhotosSugg{
+   display:flex;
+   flex-direction:row; 
+   color:white; 
+}
+.inputFichier {
+    display:none;
+ }
+
+.VoirPlus{
+}
+.ajouter{
+    display:flex; 
+    background-color:#3b3b3b;
+    float:left;
+    color:white; 
+    border-radius:10px;
+    width:46%;
+   padding:5px;
+   justify-content: center;
+   margin-bottom:20px;
+
+   /* margin-right:5px; */
+
+}
+.v2:hover{
+    background-color:#3b3b3b; 
+    cursor:default;
+}
+.importer{
+    display:flex; 
+    width:46%;
+    background-color:#3b3b3b;
+    float:left;
+    color:white; 
+    border-radius:10px;
+    padding:5px;
+   justify-content: center;
+    margin-right:5px;
+}
+.importer:hover, .crayonpp:hover, .ajouter:hover{
+    cursor:pointer;
+    background-color:#858383b5;
+}
+
+.crayonpp{
+    display:flex; 
+    background-color:#3b3b3b;
+    float:right;
+    color:white; 
+    border-radius:10px;
+    padding:4px;
+    width:40px;
+}
+.iconppC{
+    display:flex; 
+    height:25px; 
+    width:25px;
+    margin-left:5px;
+}
+.iconpp{
+    display:flex; 
+    height:25px; 
+    width:25px;
+    margin-right:12px;
+}
+.contentBody{
+    display:flex;
+    flex-direction:row;
+}
+
+.modalHeader{
+    border-bottom:1px solid #3b3b3b;
+    padding-bottom:12px;
+}
+
+.modalFooter{
+    border-top:none;
+    padding-bottom:12px;
+}
+.PhotosSuggerees{
+    color:white; 
+    font-size:1.23em;
+    font-weight:600;
+}
+.carrouselImporterPhotos{
+    margin-top:12px;
+    margin-bottom:12px;
+    height:120px;
+    width:120px;
+    cursor:pointer;
+    margin-right:7px;
+}
+.carousselPhotos{
+    display: flex;
+    flex-wrap: wrap;
+    width:664px;
+    height:fit-content;
+}
+.carrouselImporterPhotos:first-of-type{
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.carrouselImporterPhotos:last-of-type{
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.VoirPlustxt{
+    width:100%;
+    margin:8px;
+    text-align:center; 
+    color:white; 
+    font-size:1em;
+    font-weight:600;
+    background-color:#3b3b3b;
+    padding:7px;
+    border-radius:10px;
+}
+.VoirPlustxt:hover{
+    cursor:pointer;
+    background-color:#858383b5;
+}

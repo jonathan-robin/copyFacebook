@@ -1,0 +1,515 @@
+@media (max-width:1260px){
+    .dashboardLeft{
+        display:none !important;
+    }
+    .dashboardCenter{ 
+        width:741px !important;
+        margin-left:5% !important;
+    }
+    .Publier{ 
+        width:500px !important; 
+    }
+    .Salon{
+        width:500px !important; 
+    }
+    .Story{
+        width:500px !important; 
+    }
+    .DivPublications{
+        width:500px !important; 
+    }
+    .dashboardRight{ 
+        width:40% !important;
+    }
+}
+@media (max-width:1000px){
+    .dashboardRight{ 
+        width:30vw !important;
+    }
+    .ActionsContacts{ 
+        display:none !important;
+    }
+    .troispoints{
+        display:none !important;
+    }
+    .txtSponsor
+    {
+        display:none!important;
+    }
+}
+
+@media (max-width:800px){ 
+    .dashboardRight{
+        display:none !important;
+    }
+    .dashboardCenter{ 
+        margin-left:10% !important;
+    }
+    .Publier{ 
+        width:80vw !important; 
+    }
+    .Salon{
+        width:80vw !important; 
+    }
+    .Story{
+        width:80vw !important; 
+    }
+    .DivPublications{
+        width:80vw !important; 
+    }
+}
+
+@media (max-width:1480px){
+    .dashboardLeft{
+        width:350px !important; 
+    }
+    .dashboardCenter{ 
+        width:45% !important;
+    }
+}
+
+@media (max-width:5000px){
+.imageShortcut{
+    height:40px; 
+    width: 40px;
+}
+.imageShortcut:first{
+    border-radius: 20px;
+}
+.profilePicture{ 
+    height:60px; 
+    width:60px;
+    margin-left:10px; 
+    border-radius: 50px;
+}
+.myContainer{ 
+    display:flex; 
+    width:100%;
+    background-color:#18191A; 
+}
+.dashboardLeft{
+    width:400px; 
+    background-color:#18191A; 
+    float:left;
+    height:fit-content;
+    padding-bottom:55px !important;
+    padding:20px;
+    position:sticky; 
+    top:56px;
+}
+.dashboardRight{ 
+   background-color:#18191A; 
+    width:350px;
+    display:flex;
+    flex-direction: column;
+}
+.dashboardCenter{ 
+    width:35%;
+    margin:25px auto 0px auto;
+    display:flex;
+    flex-direction:column;
+    background-color:#18191A; 
+    min-height:100vh;
+    padding:0px;
+}
+
+.raccourci{ 
+    width:fit-content; 
+    margin-top:25px;
+    display:flex;
+}
+.raccourciText{
+    margin-left: 15px;
+    margin-top:8px;
+    color:white; 
+    font-weight:bold; 
+}
+.raccourciText:hover{ 
+    cursor:pointer; 
+    text-decoration:underline; 
+}
+.raccourciTextProfilePicture:hover{
+    cursor: pointer; 
+    text-decoration: underline;
+}
+.raccourciTextProfilePicture{ 
+    margin-left: 15px;
+    margin-top:18px;
+    color:white; 
+    font-weight:bold;
+}
+/* .raccourci:last-child{
+    border-bottom:5px solid black;
+    width:300px;
+    margin-top:50px;
+} */
+.borderbottom{ 
+    border-bottom: 1px solid grey;
+    margin-top:25px; 
+}
+.sponsorImg{ 
+    width:230px; 
+    height:150px;
+    margin-top:25px;
+    margin-left:10px;
+}
+.sponsor{
+    display:flex;
+}
+.txtSponsor{
+    color:white; 
+    margin-left:10px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.sponsor:last-child{
+    border-bottom:1px solid grey;
+    padding-bottom:20px;
+}
+
+.titreAnniversaire{
+    color:grey;
+    font-size:22px;
+    margin-left:25px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.AnniversaireAmis img{
+    margin-right:20px;
+    margin-left:22px;
+}
+.AnniversaireAmis{
+    font-size:18px;
+    display:flex;
+    line-height:100%;
+}
+.txtAnniv{
+    margin-top:2px;
+    color:white;
+}
+.Anniversaires{
+    border-bottom:1px solid grey;
+    padding-bottom:25px;
+}
+.imageShortcutSVG{
+    filter: invert(100%) sepia(0%) saturate(7476%) hue-rotate(110deg) brightness(98%) contrast(108%);
+}
+.troispoints{ 
+    color:white;
+    margin-top:-6px;
+}
+.ActionsContacts{ 
+    height:20px; 
+    margin-right:7px;
+    filter: invert(100%) sepia(0%) saturate(7476%) hue-rotate(110deg) brightness(98%) contrast(108%);
+}
+.Contacts{ 
+    position:sticky; 
+    top:45px;
+}
+.ContactsIntro{
+
+    margin-top:10px;
+    display:flex;
+}
+.txtContactsTitre{ 
+    margin-right:180px;
+    margin-left:20px;
+    color:grey; 
+    font-size:18px; 
+    font-weight:bold;
+}
+.Salon{ 
+    width:100%; 
+    height:fit-content; 
+    display:flex; 
+    margin-top:15px;
+    overflow:hidden;
+}
+.AmisDashboard{
+    padding:5px;
+    width:100%;
+    background-color:#4e4d4d;
+    height:fit-content;
+    border-radius:10px;
+    flex-direction: row;
+    display:flex;
+}
+.bulleAmis{ 
+    height:50px;
+    width:50px;
+    background-color:blue;
+    border-radius:50px;
+    margin-right:8.8px;
+    /* overflow:hidden; */
+}
+.imgBulleSalon:hover{ 
+    cursor:pointer;
+    box-shadow: 4px 4px 4px #18191A;
+}
+.imgBulleSalon{
+    height:50px;
+    width:50px;
+    border-radius:50px;
+    overflow:hidden;
+}
+.creerUnSalon{ 
+    padding:4px;
+    margin-top:3px;
+    width:180px;
+    min-width:180px;
+    height:50%;
+    border-radius: 50px;
+    color:rgb(81, 81, 224);
+    border:1px solid rgb(81, 81, 224);
+    margin-right:15px;
+    font-weight:bolder;
+}
+.imgSalon{ 
+    height:30px; 
+    width:30px;
+    margin-left:6px;
+}
+.Story{ 
+    width:100%; 
+    height:fit-content; 
+    display:flex; 
+    margin-top:15px; 
+}
+.AmisStory{
+    padding:5px;
+    width:100%;
+    height:fit-content;
+    border-radius:10px;
+    flex-direction: row;
+    display:flex;
+    overflow:hidden;
+}
+.AmisStoryFrame{ 
+    height:180px;
+    width:120px;
+    /* background-color:blue; */
+    border-radius:10px;
+    margin-right:15px;
+    overflow-x:hidden; 
+    overflow-y:hidden;
+}
+.AmisStoryFrame:hover{ 
+    cursor:pointer;
+}
+.photoProfilStory{ 
+    height:180px;
+    width:120px;
+    border-radius:10px;
+    display:flex;
+}
+
+.photoProfilStory:hover{ 
+    height:186px; 
+    width:126px; 
+    overflow-x:hidden;
+    overflow-y:hidden; 
+    /* border-radius:50px; */
+}
+.bouton1{
+    filter: invert(100%) sepia(0%) saturate(7476%) hue-rotate(110deg) brightness(98%) contrast(108%);
+    padding:7px;
+}
+.bouton3{
+    filter: invert(100%) sepia(0%) saturate(7476%) hue-rotate(110deg) brightness(98%) contrast(108%);
+    padding:7px;
+}
+.bouton4{ 
+    filter: invert(100%) sepia(0%) saturate(7476%) hue-rotate(110deg) brightness(98%) contrast(108%);
+    padding:7px;
+}
+.bouton2{
+    padding:2px;
+}
+
+.storyPhoto{ 
+    display:flex; 
+    position:relative; 
+    height:50px; 
+    width:50px; 
+    border-radius: 50px; 
+    top:-170px;
+    left:5px; 
+    box-shadow:2px 2px 2px 2px black;
+}
+.imgContactsEnLigne{ 
+    height:40px; 
+    width: 40px; 
+    border-radius: 50px; 
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:5px;
+}
+.ContactsEnLigne:first-of-type{
+    margin-top:15px;
+}
+    
+.ContactsEnLigne{
+    display:flex;
+}
+.ContactsEnLigne:hover{
+    background-color:rgb(58, 57, 57);
+    border-radius:20px;
+    cursor:pointer;
+}
+.imgContactsEnLigne:hover{
+    cursor:pointer; 
+}
+.NomAmis{ 
+    display:flex;
+    color:white; 
+    font-weight:bolder;
+    margin-top:15px;
+    margin-left:15px;
+}
+.NomAmis:hover{ 
+    cursor:pointer; 
+}
+.copyrightdashboardleft{ 
+    color:rgb(218, 214, 214); 
+    position:absolute; 
+    margin-top:140px;
+    font-size:14px;
+}
+.CardChat{ 
+    /* display:flex; */
+    position:fixed;
+    bottom:0px;
+    right:400px;
+    width:320px;
+    height:450px; 
+    margin-bottom:25px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color:rgb(58, 57, 57);
+    overflow-y:scroll; 
+    overflow-x:hidden;
+}
+.CardChat::-webkit-scrollbar{ 
+    display:none;
+}
+.cardChat{ 
+    margin:10px;
+    padding:20px;
+}
+.EntrerMessage{ 
+    margin-left:-30px !important;
+    position:fixed;
+    bottom:0px; 
+    width:16.8%;
+    background-color:#4e4d4d;
+    padding-top:5px;
+    padding-bottom:6px;
+}
+.inputChat{ 
+    width:280px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    margin-right:5px;
+    padding:5px;
+    /* margin-left:-15px; */
+}
+.sendMessageImg{ 
+    margin-top:5px;
+    height:30px; 
+    width: 30px;
+}
+.lesMessages{ 
+    margin-top:20px; 
+}
+.EntrerMessage{
+    display:flex;
+}
+.message{
+    width:fit-content; 
+    height:fit-content;
+    color:white; 
+    font-size:14px;
+    margin-top:8px;
+}
+.CardContent{ 
+    padding: 0px ! important; 
+    margin-right:5px;
+    display:block !important; 
+}
+.message__user{
+    text-align:right;
+    float:right !important;
+    width:100%;
+}
+.topCard{ 
+    display:flex;
+}
+.ppreciever{ 
+    height:30px; 
+    width:30px;
+    margin-right:10px;
+    margin-left:-15px;
+    margin-top:24px;   
+    border-radius: 50px;
+}
+.message__userCard{
+    background-color:rgb(77, 77, 248) !important; 
+    padding:5px;
+    float:right !important;
+    margin-left:80px !important;
+    text-align:right;
+    color:white !important;
+}
+.message__guestCard{
+    background-color:grey !important; 
+    text-align:left;
+    margin-right:65px; 
+    margin-top:15px;
+    padding:5px;
+}
+.nomReciever{ 
+    color:white; 
+    font-size:22px; 
+    font-weight:bolder; 
+    margin-top:-30px;
+    margin-left:-30px;
+    padding:5px;
+    display:flex;
+    position:fixed;
+    background-color:#4e4d4d;
+    width:16.8%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.photoReciever{ 
+    height:40px; 
+    width: 40px; 
+    border-radius: 50px; 
+    margin-right:25px;
+}
+.leaveChat{ 
+    color:black; 
+    position:absolute; 
+    right:15px;
+}
+.leaveChat:hover{
+    cursor:pointer;
+    font-size:25px;
+    transform: rotate(0.5turn);
+}
+}
+@media (max-height:1000px){ 
+    .copyrightdashboardleft{ 
+        color:rgb(218, 214, 214); 
+        position:sticky; 
+        bottom:5px;
+        font-size:14px;
+    }
+    @media (max-height:820px){
+        .copyrightdashboardleft{
+            display:none;
+        }
+    }
+}

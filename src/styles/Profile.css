@@ -1,0 +1,757 @@
+@media (max-width:940px){
+    .gérerpubli{
+        display:none;
+    }
+    .TagFriendText{
+        display:none !important;
+    }
+    .AjouterPhotoText{
+        display:none !important;
+    }
+    .AjouterPhoto{
+        justify-content:center;
+    }
+    .QueVoulezVousDire{ 
+        overflow:hidden;
+    }
+    .textPublierCom{ 
+        font-size:2vw;
+        padding-left:0px !important;
+        margin-left: 0px !important;
+        text-align:left !important;
+    }
+    .boutonPublish{ 
+        padding-left:1px !important;
+    }
+    .gérerpubliResize{ 
+        display:block !important;
+        background-color:#666464;
+        position:absolute;
+        right:5vw;
+        margin-top:12px;
+        border-radius:10px;
+        padding-right:12px;
+    }
+    .gérerpubliResize:hover{
+        background-color:#a39d9d;
+        cursor:pointer;
+    }
+    .Filtres{
+        display:none;
+    }
+    .FiltresResize{ 
+        display:block !important;
+        background-color:#666464;
+        position:absolute;
+        right:12vw;
+        margin-top:12px;
+        border-radius:10px;
+        padding-right:12px;
+    }
+    .FiltresResize:hover{
+        background-color:#a39d9d;
+        cursor:pointer;
+    }
+.imgCouv{
+        width:100vw;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .CouvCenter{
+        height:fit-content !important;
+    }
+    .Couv{
+        height:fit-content !important;
+    }
+.ProfilNom{
+        padding-top:2vw !important;
+        font-size:25px !important;
+    }
+.profilPicture{
+        top:27vw !important;
+        height:20vw !important;
+        width:20vw !important;
+        margin-left:40% !important;
+    }
+    .imgPP{
+        height:20vw !important;
+        width:30vw !important;
+    }
+    .ajouterbio{
+        font-size:12px;
+        padding-top:5px;
+    }
+    .changerpp{
+        height:4vw !important; 
+        width:4vw !important ; 
+        margin-top:15vw !important;
+        margin-left:80% !important;
+        position:absolute !important;
+    }
+    .dropdown{ 
+        visibility:hidden !important;
+    }
+    .MenuProfileContent{ 
+        visibility:hidden !important;
+        display:none !important;
+    }
+    .MenuProfilContentResize{
+        visibility: visible !important;
+        display:block !important;
+    }
+    .ProfilLeft{ 
+        width:40vw !important;
+        height:fit-content !important;
+        margin-left:1vw !important;
+    }
+    .Intro{ 
+        width:40vw !important;
+    }
+    .PhotosIntro{
+        width:40vw !important; 
+    }
+    .cont{
+        width:40vw !important;
+    }
+    .ProfilRight{ 
+        width:55vw !important;
+        height:fit-content !important;  
+        margin-right:1vw !important;
+    }
+    .ToutesLesPhotos{ 
+        margin-left:10px !important;
+    }
+    .TousLesAmisRight{ 
+        margin-left: 30px !important;
+    }
+    .cont{
+        overflow:hidden !important;
+    }
+}
+@media (max-width:650px){
+
+    .gérerpubliResize{
+        display:none !important; 
+    }
+    .FiltresResize{
+        display:none !important; 
+    }
+    .gérerpubli{ 
+        display:block !important; 
+
+        font-size:12px !important;
+    }
+    .Filtres{ 
+        display:block !important;
+        font-size:12px !important;
+        margin-left:0px !important;
+    }
+    .ProfileContent{
+        display:block !important; 
+        justify-content: center !important;
+        flex-direction: row !important;
+    }
+    .ProfilLeft{ 
+        position:relative !important;
+        width:80vw !important;
+        flex-direction: column !important;
+        margin:auto !important;
+    }
+    .Intro{ 
+        width:80vw !important;
+    }
+    .PhotosIntro{
+        width:80vw !important; 
+    }
+    .cont{
+        width:80vw !important;
+    }
+    .ProfilRight{ 
+        width:80vw !important; 
+        height:contain !important;
+        display:flex !important;
+        flex-direction: column !important;
+        margin:auto !important;
+        margin-top:65px !important;
+        padding:0px !important;
+    }
+        .ProfilNom{
+            padding-top:20px !important;
+            font-size:20px !important;
+            font-weight: 700;
+        }
+        .profilPicture{ 
+            height:130px !important;
+            width:130px !important;
+            margin-left:38.5% !important;
+        }
+        .imgPP{
+            height:130px !important;
+            width:130px !important;
+        }
+        .ajouterbio{
+            font-size:9px;
+            padding-top:5px;
+        }
+        .changerpp{
+            height:25px !important; 
+            width:25px !important; 
+            margin-top:99.2px !important;
+            margin-left:101.2px !important;
+            position:absolute !important;
+        }
+    }
+@media (max-width:5000px){
+    .gérerpubliResize{ 
+        display:none;
+    }
+    .FiltresResize{ 
+        display:none;
+    }
+    .MenuProfilContentResize{ 
+        visibility:hidden;
+        display:none;
+    }
+    .VueListeTxt{
+        padding-left:5px;
+        padding-top:3px;
+    }
+    .VueGrilleTxt{
+        padding-left:5px;
+        padding-top:3px;
+    }
+.Couv{
+    height:348.81px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(99,99,99,1) 79%, rgba(87,87,87,1) 85%, rgba(81,81,81,1) 88%, rgba(71,71,71,1) 93%, rgba(67,67,67,1) 95%, rgba(59,59,59,1) 100%);
+    width:100%;
+}
+.ProfileBack{
+    width:100%;
+    background-color:rgb(24, 24, 24); 
+    height:100%;
+    display:flex;
+}
+.ProfilLeft{
+    width:360px;
+    height:contain;
+    display:flex;
+    flex-direction: column;
+    position:sticky; 
+    top:56px;
+    height:fit-content;
+}
+.ProfilRight{
+    width:560px; 
+    height:contain;
+    display:flex;
+    padding-left:4%;
+    flex-direction: column;
+}
+.ProfileContent{
+    width:940px;
+    background-color:rgb(24, 24, 24); 
+    height:fit-content; 
+    min-height:100vh;
+    margin:auto;
+    display:flex;
+    padding-top:2%;
+}
+.MenuProfile{
+    height:60px; 
+    width:100%;
+    background-color:#3b3b3b;
+}
+.InfoNoms{
+    height:99px;
+    width:100%;
+    background-color:#3b3b3b;
+    padding-bottom:16px;
+}
+.cropperMaxDim{
+    width:900px; 
+    height:360px;
+}
+.CouvCenter{
+    width:900px;
+    height:348px;
+    overflow:hidden;
+    margin:auto;
+}
+.imgCouv{ 
+    border-radius: 0px 0px 10px 10px;
+}
+.dropdownCouv{
+    background-color:rgba(255, 255, 255, 0.178);
+    border:none;
+}
+.dropdownCouv:hover{
+    background-color:#979292;
+    border:none;
+}
+.importer2{
+    display:flex; 
+    width:100%;
+    color:white; 
+    border-radius:10px;
+    padding:5px;
+    padding-left:22px;
+}
+.importer2:hover{
+    background-color:white;
+    cursor:pointer;
+    color:black;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color:rgba(255, 255, 255, 0.178) !important;
+    border: 0px !important;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-primary:focus, .btn-primary.focus {
+    background-color:rgba(255, 255, 255, 0.178) !important;
+    box-shadow:none !important;
+    border:none !important;
+}
+.dropdown-menu{
+    width:300px;
+    border-radius:10px;
+    padding:0px;
+    display:flex;
+}
+.dropdown-menu a{
+    color: #fff;
+    border-radius:10px;
+    margin-bottom:5px;
+    display:flex;
+}
+.dropdown-menu.show {
+    width:300px;
+    background-color:rgba(255, 255, 255, 0.178) !important;
+}
+.ChangerCouv{
+    width:280px; 
+    height:35px;
+    margin-top:130px;
+    margin-left:580px;
+    border-radius:8px;
+    padding:5px;
+    color:white;
+    float:right;
+    position:absolute; 
+    top:200px;
+}
+.ChangerCouv:hover{
+        cursor:pointer;
+}
+.camera{
+    height:25px; 
+    width:25px;
+    margin-right:10px;
+}
+.textPublierCom{
+    margin-top:-3px;
+}
+.CarouselAmis{
+    display:flex;
+    height:250px;
+    width:360px;
+}
+.profilPicture{
+    position:absolute;
+    top:250px;
+    height:170px;
+    width:170px;
+    margin-left:370px;
+    border-radius:50%;
+    border:3px solid #3b3b3b;
+    display:flex;
+}
+.controls{
+    position:absolute;
+    left:70%;
+    top:70%;
+}
+.changerpp{
+    height:35px; 
+    width:35px;
+    background-color:#3b3b3b;
+    border-radius:10px;
+    padding:2px;
+    margin-top:122px;
+    margin-left:132px;
+    position:absolute;
+}
+.imgPP{
+    height:164px;
+    width:200px;
+    border-radius:50%;
+    overflow:hidden;
+    display:flex;
+}
+.changerpp:hover{
+    background-color:#646464;
+    cursor:pointer;
+}
+.ProfilNom{
+    text-align: center;
+    padding-top:15px;
+    color:white;
+    font-size:35px;
+    font-weight: 700;
+}
+.ajouterbio{
+    color: hsl(214,100%,59%);
+    font-weight:500;
+    text-align: center;
+    margin-top:-5px;
+    margin-right:38.5%;
+    margin-left:38.5%;
+}
+.ajouterbio:hover{
+    cursor:pointer; 
+    text-decoration: underline;
+}
+.ContentCommentaire{
+    line-height:1;
+    margin-top:-2px;
+}
+.InputCom{ 
+    resize:none;
+    overflow:hidden;
+}
+.MenuProfile{
+    display:flex;
+    justify-content: center;
+    height:60px; 
+    color:#a7a6a6;
+    font-weight: 600;
+    border-top: 1px solid #5c5c5c;
+} 
+.divUp{
+    display:flex;
+}
+.divUpText{
+    margin-top:20px;
+}
+.MenuProfileContent{
+    height:60px; 
+    display:flex;
+    color:#a7a6a6;
+    font-weight: 600;
+}
+.Publications{
+    width:fit-content;
+    height:60px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 15px;
+    border-radius:10px;
+}
+.Propos{
+    width:fit-content;
+    height:60px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:10px;
+    padding-top: 15px;
+}
+.Propos:hover, .Amis:hover, .Plus:hover, .Photos:hover, .Publications:hover{
+    cursor:pointer;
+    background-color:#646464;
+}
+.Amis{
+    width:fit-content;
+    height:60px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 15px;
+    border-radius:10px;
+}
+.Photos{
+    width:fit-content;
+    height:60px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 15px;
+    border-radius:10px;
+}
+.Plus{
+    width:fit-content;
+    height:60px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 15px;
+    border-radius:10px;
+}
+.crayon{
+    height:20px; 
+    width:20px;
+}
+.ModifProfil{
+    padding-top: 15px;
+    padding:5px;
+    margin-top: 12px;
+    margin-left:8vw;
+    margin-right:15px;
+    background-color:#474545;
+    height:35px;
+    width:180px;
+    text-align: center;
+    border-radius:10px;
+}
+.ModifProfil:hover, .eye:hover, .loupe2:hover, .paramsuppl:hover{
+    cursor:pointer;
+    background-color:#646464;
+}
+.eye{
+    margin-top: 12px;
+    height:35px; 
+    width:35px;
+    background-color:#474545;
+    padding:3px;
+    border-radius:10px;
+}
+.loupe2{
+    margin-top: 12px;
+    height:35px; 
+    width:35px;
+    background-color:#474545;
+    padding:3px;
+    border-radius:10px;
+    margin-left:8px;
+}
+.paramsuppl{
+    text-align:center;
+    margin-top:-5px;
+    height:35px; 
+    width:35px;
+    background-color:#474545;
+    padding:3px;
+    border-radius:10px;
+    margin-left:8px;
+    margin-top:12px;
+}
+.Intro{
+    float:left;
+    width:360px;
+    height:fit-content;
+    background-color:#474545;
+    border-radius:10px;
+    margin-bottom:4%;
+}
+.IntroText{
+    display:flex;
+    height:fit-content;
+    font-weight:700;
+    color:white;
+    font-size:21px;
+    padding:8px;
+    padding-left:10px;
+    margin-bottom:-5px;
+}
+.InfoIntro{
+    font-weight:500;
+    padding:8px;
+    color:#d8d7d7;
+    font-size:15px;
+}
+.logointro{
+    height:20px; 
+    width:20px;
+    margin-right:10px;
+}
+.BoutonsModifIntro{
+    background-color:#666464;
+    border-radius:10px;
+    margin:10px;
+    padding:8px;
+    text-align:center;
+    color:white; 
+    font-weight:500;
+    margin-bottom:20px;
+}
+.BoutonsModifIntro:hover{
+    background-color:#afa9a9;
+    cursor:pointer;
+}
+.PhotosIntro{
+    float:left;
+    width:360px;
+    height:fit-content;
+    background-color:#474545;
+    border-radius:10px;
+    margin-bottom:4%;
+    display:flex;
+}
+.ToutesLesPhotos{
+    color: hsl(214,100%,59%);
+    font-weight:500;
+    margin-top:12px;
+    margin-left:115px;
+}  
+.TousLesAmis{
+    display:flex;
+    height:fit-content;
+    width:100%;
+    color: hsl(214,100%,59%);
+    font-weight:500;
+    margin-top:12px;
+    margin-left:165px;
+}
+.ToutesLesPhotos:hover{
+    cursor:pointer; 
+    text-decoration: underline;
+} 
+.Publier{
+    background-color:#474545;
+    width:100%; 
+    height:140px;
+    border-radius:10px;
+}
+.PublierPost{
+    display:flex;
+    border-bottom:1px solid #616161;
+    padding:2px;
+    margin-left:15px;
+    margin-right:15px;
+}
+.imgProfilePublierPost{
+    height:50px;
+    width:50px; 
+    border-radius:50px;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin:10px;
+}
+.imgProfilePublierPost:hover{
+    cursor:pointer;
+    opacity:70%;
+}
+.QueVoulezVousDire{
+    width:80%;
+    height:45px;
+    margin-top:14px;
+    border-radius:50px;
+    background-color:#666464;
+}
+.QVVDtext{
+    margin-left:25px;
+    margin-top:10px;
+    color:rgb(212, 212, 212);
+    font-size:1.1em;
+    font-weight:400;
+}
+.AjouterPost{
+    display:flex;
+    color:rgb(212, 212, 212);
+    font-weight:500;
+}
+.AjouterPhoto{
+    display:flex;
+    width:50%;
+    padding:15px;
+    margin-left: 25px;
+}
+.AjouterPhotoText{
+    margin-top:5px;
+}
+.AjouterPhoto:hover{
+    cursor:pointer; 
+    text-decoration: underline;
+}
+.TagFriends:hover{
+    cursor:pointer; 
+    text-decoration: underline;
+}
+.TagFriends{
+    width:50%;
+    padding:15px;
+    display:flex;
+}
+.TagFriendText{
+    margin-top:5px;
+}
+.TagFriend{
+    height:40px; 
+    width:40px;
+    margin-right:20px;
+}
+.addPicture{
+    height:40px; 
+    width:40px;
+    margin-right:20px;
+}
+.FiltrerPublications{
+    background-color:#474545;
+    width:100%; 
+    height:100px;
+    border-radius:10px;
+    margin-top:3%;
+}
+.publifiltr{
+    display:flex;
+    padding:5px;
+    padding-bottom:10px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.178);
+}
+.Filtres{
+    background-color:#666464;
+    margin-left:70px;
+    margin-top:12px;
+    border-radius:10px;
+    padding-right:15px;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+}
+.Filtres:hover{
+    background-color:#a39d9d;
+cursor:pointer;
+}
+.gérerpubli:hover{
+    background-color:#a39d9d;
+    cursor:pointer;
+}
+.gérerpubli{
+    background-color:#666464;
+    margin-left:10px;
+    margin-top:12px;
+    border-radius:10px;
+    padding-right:15px;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+}
+.filtre{
+    height:30px; 
+    width:30px;
+    padding:3px;
+}
+.switchVuepubli{
+    display:flex;
+    color:rgb(185, 185, 185);
+    font-weight:500;
+}
+.vueListe{
+    display:flex; 
+    width:50%;
+    justify-content: center;
+    padding:6px;
+    border-radius:10px;
+}
+.vueListe:hover{
+    background-color:#666464;
+    cursor:pointer;
+}
+.vueGrille:hover{
+    background-color:#666464;
+    cursor:pointer;
+}
+.vueGrille{
+    width:50%;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    border-radius:10px;
+    padding:6px;
+}
+}

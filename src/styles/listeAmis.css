@@ -1,0 +1,72 @@
+
+
+
+.cont{
+    width: 360px;
+    height: fit-content;
+    background-color: #474545;
+    border-radius: 10px;
+}
+.AmisLeft{
+    font-weight: 700;
+    color: white;
+    font-size: 21px;
+    padding: 8px;
+    padding-left: 10px;
+    margin-bottom: -5px;
+}
+.TousLesAmisRight{
+    color: hsl(214,100%,59%);
+    font-weight: 500;
+    margin-left:135px;
+    font-size:17px;
+    margin-top:12px;
+}
+.TousLesAmisRight:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+.portraitAmis{
+    height:fit-content; 
+    min-height:140px;
+    width:100px;
+    background-color:#707070;
+    border-radius:10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+.portraitAmis:hover{
+    cursor:pointer; 
+    background-color:#303030;
+
+}
+.imgProfileListe{
+    height:80px; 
+    width:100px;
+    padding:8px;
+    justify-content: center;
+}
+.nomAmis{
+    color:white; 
+    font-size:18px; 
+    text-align:center;
+    padding:5px;
+}
+.premiereDiv{
+    height:60px;
+    width:100%;
+    display:flex;
+}
+.deuxiemeDiv{
+    height:fit-content; 
+    width:90%;
+}
+.gridAmis{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6px;
+    height:fit-content; 
+    width:fit-content;
+    max-height:320px;
+    overflow:hidden;
+}
