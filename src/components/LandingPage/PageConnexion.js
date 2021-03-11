@@ -60,7 +60,7 @@ function PageConnexion(props) {
     setHandlerClickModal(true);
   }
 
-  const getIt = async (user) => {
+  const getInfosUser = async (user) => {
     var userdata = [];
     var urls = [];
     var listeAmis = [];
@@ -158,7 +158,7 @@ function PageConnexion(props) {
     e.preventDefault()
     setError('');
     await login(emailRef.current.value, passwordRef.current.value)
-      .then(res => getIt(res.user))
+      .then(res => getInfosUser(res.user))
       .catch(err => {
         console.log(err)
       })

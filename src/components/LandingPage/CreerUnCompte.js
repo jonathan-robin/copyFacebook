@@ -6,8 +6,10 @@ import { Alert } from 'react-bootstrap'
 import { useHistory } from 'react-router-dom'
 import { useLocation } from 'react-router-dom';
 import { db, storage } from '../../firebase';
+import { userConverter } from '../getInfos';
 
 function CreerUnCompte(props) {
+  const {getAllUsers} = useAuth();
   const emailRef = useRef();
   const prenomRef = useRef();
   const nomRef = useRef();
@@ -21,6 +23,38 @@ function CreerUnCompte(props) {
   const history = useHistory();
   const { signup, sendInfos, currentUser, login } = useAuth();
   const location = useLocation();
+
+
+  const getInfosUser = async (user) => {
+    var userdata = [];
+    var urls = [];
+    var listeAmis = [];
+    var requestFriends = [];
+    var nomUsers = [];
+    var lesPublications = [];
+    await db.collection("/users").doc(user.uid)
+      .withConverter(userConverter)
+      .get().then(doc => userdata = (doc.data()))
+      .catch(function (error) {
+        console.log("Error getting document:", error);
+      });
+    await getAllUsers().then(response => {
+      response.map(res => {
+        nomUsers.push({ label: res.FullName + ' ' + res.Name, id: res.id })
+      })
+    })
+    return history.push({
+      pathname: '/',
+      state: {
+        user: userdata,
+        urls: urls,
+        listeAmis: listeAmis,
+        requestFriends: requestFriends,
+        allUsers: nomUsers,
+        lesPublications: lesPublications
+      }
+    })
+  }
 
   async function handleSubmit(e) {
     props.prenom(prenomRef.current.value);
@@ -50,6 +84,10 @@ function CreerUnCompte(props) {
           .then(
             sendInfos(prenomRef.current.value, nomRef.current.value, birthDayRef.current.value, birthMonthRef.current.value, birthYearRef.current.value, sex, res.user)
           )
+          .then(login(emailRef.current.value, passwordRef.current.value)
+          .then(res => getInfosUser(res.user)))
+          // await login(emailRef.current.value, passwordRef.current.value)
+          // .then(res => GetInfosUser(res.user))
         if (res.additionalUserInfo.isNewUser) {
           props.setnewuser();
         }
